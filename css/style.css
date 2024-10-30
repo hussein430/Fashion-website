@@ -38,7 +38,7 @@ body {
 
 .header-area .links li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -97,13 +97,14 @@ color: var(--main-color);
 }
 
 .landing-page .introduction .introduction-image {
-  background-image: url("../imgs/header2\ \(3\).jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
   width: 600px;
   flex: 2;
   border-radius: 5px;
+  transition: background-image 1s ease-in-out;
+
 }
 
 .landing-page .introduction .introduction-button {
