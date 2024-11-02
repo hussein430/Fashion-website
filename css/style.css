@@ -407,17 +407,18 @@ p {
 
 .our-expertise .container .imgs{
   display: flex;
+  position: relative;
 }
 
 .our-expertise .container .imgs img {
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 5px;
 }
 
 .our-expertise .container .imgs .img2 {
     position: absolute;
-    top: 182px;
-    right: 133px;
+    top: -100px;
+    left: 700px;
 }
 
 /* Responsive */
@@ -428,7 +429,7 @@ p {
     margin-left: 0;
   }
 
-  .our-expertise .container h4 {
+  .our-expertise .container .title h4 {
     font-size: 4rem;
     font-weight: 500;
     width: 100%;
@@ -438,8 +439,13 @@ p {
     text-align: center;
   }
 
+  .our-expertise .container .imgs{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .our-expertise .container .imgs img {
-    max-width: 200px;
+    max-width: 180px;
   }
 
   .our-expertise .container .imgs .img2 {
@@ -449,3 +455,7 @@ p {
 }
 
 /* End our expertise */
+
+/* Start Trusted */
+
+/* End Trusted */
