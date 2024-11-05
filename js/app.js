@@ -90,10 +90,10 @@ if (savedBackgroundOption !== null) {
 
 // Get the images
 const images = [
-  "../imgs/header1.jpg",
-  "../imgs/header2.jpg",
-  "../imgs/header3.jpg",
-  "../imgs/header4.jpg",
+  "./imgs/header1.jpg",
+  "./imgs/header2.jpg",
+  "./imgs/header3.jpg",
+  "./imgs/header4.jpg",
 ];
 
 // Change the images on the heading
